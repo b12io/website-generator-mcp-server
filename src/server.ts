@@ -20,7 +20,7 @@ server.tool("generate_website",
   ({ name, description }) => ({
     content: [{
       type: "text",
-      text: `Your new website for __${name}__ is ready! [Sign up to see the website](https://b12.io/signup/?utm_medium=chat&utm_source=openai-gpt&intent=ai-websites&utm_content=website-generator&business_name=${encodeURIComponent(name)}&business_description=${encodeURIComponent(description)}) and publish it for free.`
+      text: `Your new website for __${name}__ is ready! [Sign up to see the website](https://b12.io/signup/?utm_medium=chat&utm_source=mcp-server&intent=ai-websites&utm_content=website-generator&business_name=${encodeURIComponent(name)}&business_description=${encodeURIComponent(description)}) and publish it for free.`
     }]
   })
 );
