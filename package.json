@@ -1,0 +1,21 @@
+{
+  "name": "mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "zod": "^3.24.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "tsc && shx chmod +x dist/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "shx": "^0.4.0",
+    "typescript": "^5.8.2"
+  }
+}
