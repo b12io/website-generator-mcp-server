@@ -1,19 +1,18 @@
 {
-  "name": "mcp",
+  "name": "b12-mcp-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "MCP server for b12.io",
   "main": "server.js",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
     "zod": "^3.24.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build": "tsc && shx chmod +x dist/*.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "b12io",
+  "license": "Apache-2.0",
   "devDependencies": {
     "shx": "^0.4.0",
     "typescript": "^5.8.2"
