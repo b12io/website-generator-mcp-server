@@ -10,7 +10,7 @@ import {
 
 const server = new Server(
   {
-    name: 'example-servers/b12-website-generator',
+    name: 'b12-website-generator',
     version: '0.1.0',
   },
   {
