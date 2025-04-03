@@ -1,8 +1,12 @@
 {
-  "name": "b12-mcp-server",
+  "name": "@b12/mcp-server",
   "version": "1.0.0",
   "description": "MCP server for b12.io",
-  "main": "server.js",
+  "main": "dist/server.js",
+  "files": ["dist"],
+  "bin": {
+    "b12-mcp-server": "dist/server.js"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0"
   },
