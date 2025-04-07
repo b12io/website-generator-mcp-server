@@ -1,0 +1,24 @@
+{
+  "name": "@b12/mcp-server",
+  "version": "1.0.1",
+  "description": "MCP server for b12.io",
+  "main": "dist/server.js",
+  "files": ["dist"],
+  "bin": {
+    "b12-mcp-server": "dist/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc && shx chmod +x dist/*.js"
+  },
+  "author": "b12io",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "shx": "^0.4.0",
+    "typescript": "^5.8.2"
+  }
+}
