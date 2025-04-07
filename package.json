@@ -1,6 +1,6 @@
 {
-  "name": "@b12/mcp-server",
-  "version": "1.0.1",
+  "name": "website-generator-mcp-server",
+  "version": "1.0.2",
   "description": "MCP server for b12.io",
   "main": "dist/server.js",
   "files": ["dist"],
