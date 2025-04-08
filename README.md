@@ -1,4 +1,4 @@
-# website-generator-mcp-server
+# @b12/website-generator-mcp-server
 B12's model context protocol server for generating websites with AI
 
 ## Usage with Claude Desktop
