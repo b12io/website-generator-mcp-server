@@ -17,7 +17,7 @@ To use this server with the Claude Desktop app, add the following configuration 
     "mcpServers": {
         "b12": {
             "command": "npx",
-            "args": ["-y", "@b12/mcp-server"]
+            "args": ["-y", "@b12/website-generator-mcp-server"]
         }
     }
 }
