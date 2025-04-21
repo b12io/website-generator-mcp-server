@@ -1,6 +1,10 @@
 # @b12/website-generator-mcp-server
 B12's model context protocol server for generating websites with AI
 
+<a href="https://glama.ai/mcp/servers/@b12io/website-generator-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@b12io/website-generator-mcp-server/badge" alt="Website Generator MCP server" />
+</a>
+
 ## Usage with Claude Desktop
 
 ### Prerequisites
