@@ -14,11 +14,11 @@
   "icon": "icon.png",
   "server": {
     "type": "node",
-    "entry_point": "src/server.ts",
+    "entry_point": "src/server.js",
     "mcp_config": {
       "command": "node",
       "args": [
-        "${__dirname}/src/server.ts"
+        "${__dirname}/src/server.js"
       ],
       "env": {}
     }
