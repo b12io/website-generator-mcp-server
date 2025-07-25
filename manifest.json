@@ -1,0 +1,41 @@
+{
+  "dxt_version": "0.1",
+  "name": "website-generator",
+  "display_name": "Website Generator",
+  "version": "1.0.3",
+  "description": "Website Generator creates a professional, engaging, and user-friendly website for your business in seconds using AI.",
+  "long_description": "This extension allows you to create a professional, engaging, and user-friendly website in seconds using AI. To create a website, you need to provide a name for your project/business, along with a description (goals, structure, etc) of the project/business.",
+  "author": {
+    "name": "B12.io",
+    "email": "hello@b12.io",
+    "url": "https://b12.io/"
+  },
+  "homepage": "https://b12.io/",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "src/server.ts",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/src/server.ts"
+      ],
+      "env": {}
+    }
+  },
+  "prompts": [
+    {
+      "name": "🛠 Build and host a website",
+      "text": "🛠 Build and host a website"
+    }
+  ],
+  "keywords": [
+    "website",
+    "business",
+    "marketing",
+    "write code",
+    "write copy",
+    "site"
+  ],
+  "license": "Apache-2.0"
+}
