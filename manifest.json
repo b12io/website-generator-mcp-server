@@ -3,8 +3,8 @@
   "name": "website-generator",
   "display_name": "Website Generator",
   "version": "1.0.3",
-  "description": "Website Generator creates a professional, engaging, and user-friendly website for your business in seconds using AI.",
-  "long_description": "This extension allows you to create a professional, engaging, and user-friendly website in seconds using AI. To create a website, you need to provide a name for your project/business, along with a description (goals, structure, etc) of the project/business.",
+  "description": "🔮 Create a website in seconds! 🔮 Generate, design, write code, and write copy for your website. Powered by B12. 📧hello@b12.io 📧",
+  "long_description": "This extension allows you to create a professional, engaging, and user-friendly website in seconds using AI. To create a website, you need to provide a name for your project/business, along with a description of the project/business (goals, structure, etc.).",
   "author": {
     "name": "B12.io",
     "email": "hello@b12.io",
