@@ -23,10 +23,10 @@
       "env": {}
     }
   },
-  "prompts": [
+  "tools": [
     {
-      "name": "🛠 Build and host a website",
-      "text": "🛠 Build and host a website"
+      "name": "generate_website",
+      "description": "Generates link to a website for project/business by a given name and short description"
     }
   ],
   "keywords": [

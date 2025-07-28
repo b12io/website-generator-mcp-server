@@ -20,11 +20,8 @@ const server = new Server(
 )
 
 const WEBSITE_GENERATION_TOOL = {
-  name: 'b12_website_generator',
-  description: `
-    Generates website for business by a given business name and short description
-    and prints output in the chat using the following format:
-    Your new website for *{{The business name}}* is ready! [Sign up to see the website]({{The link to claim newly designed website.}}) and publish it for free.`,
+  name: 'generate_website',
+  description: 'Generates a website from a business/project name and short description, then presents a link (in markdown format) to sign up and see the website.',
   inputSchema: {
     type: 'object',
     properties: {
@@ -53,7 +50,7 @@ server.setRequestHandler(CallToolRequestSchema, request => {
       throw new Error('Business name and description are not provided')
     }
 
-    if (toolName === 'b12_website_generator') {
+    if (toolName === 'generate_website') {
       const { name, description } = args
       return {
         content: [{
