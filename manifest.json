@@ -1,0 +1,41 @@
+{
+  "dxt_version": "0.1",
+  "name": "website-generator",
+  "display_name": "Website Generator",
+  "version": "1.0.3",
+  "description": "🔮 Create a website in seconds! 🔮 Generate, design, write code, and write copy for your website. Powered by B12. 📧hello@b12.io 📧",
+  "long_description": "This extension allows you to create a professional, engaging, and user-friendly website in seconds using AI. To create a website, you need to provide a name for your project/business, along with a description of the project/business (goals, structure, etc.).",
+  "author": {
+    "name": "B12.io",
+    "email": "hello@b12.io",
+    "url": "https://b12.io/"
+  },
+  "homepage": "https://b12.io/",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "src/server.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/src/server.js"
+      ],
+      "env": {}
+    }
+  },
+  "tools": [
+    {
+      "name": "generate_website",
+      "description": "Generates a website from a business/project name and short description, then presents a link (in markdown format) to sign up and see the website."
+    }
+  ],
+  "keywords": [
+    "website",
+    "business",
+    "marketing",
+    "write code",
+    "write copy",
+    "site"
+  ],
+  "license": "Apache-2.0"
+}
