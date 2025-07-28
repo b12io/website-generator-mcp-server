@@ -26,7 +26,7 @@
   "tools": [
     {
       "name": "generate_website",
-      "description": "Generates link to a website for project/business by a given name and short description"
+      "description": "Generates a website from a business/project name and short description, then presents a link (in markdown format) to sign up and see the website."
     }
   ],
   "keywords": [

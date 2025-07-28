@@ -21,6 +21,7 @@ const server = new Server(
 
 const WEBSITE_GENERATION_TOOL = {
   name: 'generate_website',
+  // Make sure the description is in sync with tool description in manifest.json
   description: 'Generates a website from a business/project name and short description, then presents a link (in markdown format) to sign up and see the website.',
   inputSchema: {
     type: 'object',
