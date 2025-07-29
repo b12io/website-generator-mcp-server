@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/b12io-website-generator-mcp-server-badge.png)](https://mseep.ai/app/b12io-website-generator-mcp-server)
+
 # @b12/website-generator-mcp-server
 B12's model context protocol server for generating websites with AI
 
